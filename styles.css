@@ -1,0 +1,65 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ol, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply styling to the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 20px; /* Add margin for spacing */
+  line-height: 1.6; /* Line height for better readability */
+}
+#addendum-content { 
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(230, 173, 200); /* Choose the background color you prefer */
+  border: 5px outset rgb(101, 45, 181); /* Add a border for the box */
+  border-radius: 5px; /* Add rounded corners to the box */
+  margin-top: 20px; /* Add space above the box to separate it from the content */
+}
+
+/* Style the main title */
+h1 {
+  font-size: 28px;
+  color: #0d1105;
+  margin-top: 20px; /* Add top margin for spacing */
+}
+
+/* Style section titles */
+h2, h3 {
+  font-size: 24px;
+  color:  #3a1389;
+  margin-top: 20px;
+}
+
+/* Style paragraphs */
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Style links */
+a {
+  text-decoration: none;
+  color: #ff5733;
+}
+
+/* Style ordered lists for references */
+ol {
+  list-style-type: decimal;
+  margin-left: 20px;
+}
+
+/* Additional Stylistic or Semantic Elements */
+i {
+  font-style: italic;
+}
+
+em {
+  font-weight: bold;
+}
+
+/* Explain any HTML abuse in your addendum */
+/* HTML abuse: Corrected the title to use an <h1> tag */
